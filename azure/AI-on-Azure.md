@@ -8,7 +8,10 @@
 ### **M**achine **L**earning
 
 - is a technique that uses **mathematics** and **statistics** to create a model that can predict unknown values
-
-- Regression 
-        - Function f that operates on feature x to calculate a predicted label y  
-        ```f(x) = y```
+-      Supervised Machine Learning
+    - Regression 
+        Function f that operates on feature x to calculate a predicted label y  
+       ```f(x) = y```
+    - Classification
+        is a process of categorizing a given set of data into classes
+-       Unsupervised Machine Learning
