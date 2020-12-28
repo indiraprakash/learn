@@ -5,3 +5,10 @@
 - **Computer Vision** - deals with visual processing (Seeing AI)
 - Natural language processing (NLP) - oftware that understands written and spoken language
 
+### **M**achine **L**earning
+
+- is a technique that uses **mathematics** and **statistics** to create a model that can predict unknown values
+
+- Regression 
+        - Function f that operates on feature x to calculate a predicted label y  
+        ```f(x) = y```
