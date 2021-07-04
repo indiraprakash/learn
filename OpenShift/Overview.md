@@ -27,7 +27,9 @@
   * Unified UI
 ## OC Utility
 ```
- - oc get pods
- - oc get all
+- oc get pods
+- oc get all
+- oc export
+- oc create
 ```
 
