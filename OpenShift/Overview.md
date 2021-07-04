@@ -25,3 +25,9 @@
   * Routes (Exposing the services outside)
   * Metrics and logging
   * Unified UI
+## OC Utility
+```
+ - oc get pods
+ - oc get all
+```
+
