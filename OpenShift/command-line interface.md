@@ -9,7 +9,15 @@
 *   ``` oc get pods``` check finished building
 * ``` oc get all``` List all the resources within the projects
 * ``` oc delete project <project_name>``` delete
-*
+* ### Import Export Resources
+* Export resource to a yaml file ``` oc get -o yaml <resource> > <resource>.yaml``` 
+* Create resource from a yaml file ``` oc create -f <resource>.yaml``` 
+* Replace a resource ``` oc replace -f <file_name>```
+* ``` oc get secrets```
+* ``` oc extract secret <secret_name> --to=<directory_to_save>```
+
+
+
 
 
 
