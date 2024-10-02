@@ -4,3 +4,6 @@
 ### Kustomize
 - configuration management tool for Kubernetes
 - Base and overlays
+### Helm
+- helm create <name>
+- helm install <name> <path>
