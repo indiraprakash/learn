@@ -1,6 +1,8 @@
 ## kubectl Quick Reference
 ---
  - [kubectl Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
+ - delete all resources
+`kubectl delete all --all`
 ### Kustomize
 - configuration management tool for Kubernetes
 - Base and overlays
@@ -17,3 +19,5 @@
 > `helm uninstall` <*release name*>
 - template directive
 > {{`namespaced.objects`}}
+- package helm charts
+   `helm package` <*path*>
