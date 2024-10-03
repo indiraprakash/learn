@@ -21,3 +21,4 @@
 > {{`namespaced.objects`}}
 - package helm charts
    `helm package` <*path*>
+- create chart repository with index.html `helm repo index` <*path*>
