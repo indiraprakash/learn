@@ -22,3 +22,9 @@
 - package helm charts
    `helm package` <*path*>
 - create chart repository with index.html `helm repo index` <*path*>
+- manage chart repository in helm
+> `helm repo list`
+> 
+>  `helm repo add` <*name*> <*url*>
+> 
+>  `helm search repo` <*name*>
