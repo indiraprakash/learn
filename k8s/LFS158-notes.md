@@ -29,6 +29,12 @@
 -  `kubectl get deploy,rs,po -l app=` <*app-name*>
 ### DaemonSets
 - operators designed to manage node agents
+- for managing multiple Pod replicas and application updates it resembles ReplicaSet and Deployment operators
+- enforces a single Pod replica to be placed per Node, on all the Nodes or on a select subset of Nodes(distinct feature)
+- used to collect monitoring data from all Nodes, or to run storage, networking, or proxy daemons on all Nodes, to ensure a specific type of Pod running on all Nodes at all times
+- kube-proxy agent is a DaemonSet operator, running as a Pod on every single node in the cluster
+### Services
+- to expose any containerized application to the Kubernetes network
 
 
   
