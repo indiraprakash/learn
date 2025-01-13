@@ -40,5 +40,7 @@
 - kubernetes supports
   - Normal Users : They are managed outside of the Kubernetes cluster via independent services
   - Service Accounts : allow in-cluster processes to communicate with the API server to perform various operations
+  - Admission Control
+Admission controllers are used to specify granular access control policies, which include allowing privileged containers, checking on resource quota, etc.
   
   
