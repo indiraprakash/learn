@@ -3,6 +3,13 @@
  - [kubectl Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
  - delete all resources
 `kubectl delete all --all`
+- Configure the kubectl client's configuration manifest
+`kubectl config set-credentials USER \
+  --client-certificate=USER.crt --client-key=USER.key`
+- Create a new context entry in the kubectl client's configuration manifest
+- `kubectl config set-context USER-context \
+  --cluster=CLUSERTER --namespace=NAMESPACE --user=USER`
+- `kubectl config viewkubectl config view`
 ### Kustomize
 - configuration management tool for Kubernetes
 - Base and overlays
