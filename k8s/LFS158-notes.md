@@ -35,7 +35,10 @@
 - kube-proxy agent is a DaemonSet operator, running as a Pod on every single node in the cluster
 ### Services
 - to expose any containerized application to the Kubernetes network
-
-
+### Authentication, Authorization, Admission Control
+- Kubernetes network does not have user or usernames in it object store
+- kubernetes supports
+  - Normal Users : They are managed outside of the Kubernetes cluster via independent services
+  - Service Accounts : allow in-cluster processes to communicate with the API server to perform various operations
   
   
